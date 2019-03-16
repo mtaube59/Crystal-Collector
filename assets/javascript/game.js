@@ -27,33 +27,46 @@ $(document).ready(function () {
     console.log(gemGreen);
 
 
-    $("#blue").on("click", function () {
+    $(".gems").on("click", function () {
+        var gem = $(this).attr("id")
     //Grab value of blue and add to the variable score, update score on page
-        score = gemBlue + score
+        var currentValue;
+        if (gem === "blue"){
+            score = score + gemBlue
+        }
+        else if (gem === "yellow"){
+            score = score + gemYellow
+        }
+        else if (gem === "green"){
+            score = score + gemGreen
+        }
+        else if (gem === "purple"){
+            score = score + gemPurple
+        }
         $("#score").text(score)
         updateScore(score)
 
     })
-    $("#green").on("click", function () {
-        score = gemGreen + score
-        $("#score").text(score)
-        updateScore(score)
+    // $("#green").on("click", function () {
+    //     score = gemGreen + score
+    //     $("#score").text(score)
+    //     updateScore(score)
 
-    })
-    $("#purple").on("click", function () {
-        score = gemPurple + score
-        $("#score").text(score)
-        updateScore(score)
+    // })
+    // $("#purple").on("click", function () {
+    //     score = gemPurple + score
+    //     $("#score").text(score)
+    //     updateScore(score)
         
 
-    })
-    $("#yellow").on("click", function () {
-        score = gemYellow + score
-        $("#score").text(score)
-        updateScore(score)
+    // })
+    // $("#yellow").on("click", function () {
+    //     score = gemYellow + score
+    //     $("#score").text(score)
+    //     updateScore(score)
         
 
-    })
+    // })
 
     function updateScore(x) {
         $("#score").text(x)
