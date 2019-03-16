@@ -32,34 +32,32 @@ $(document).ready(function () {
         score = gemBlue + score
         $("#score").text(score)
         updateScore(score)
-        checkWins()
 
     })
     $("#green").on("click", function () {
         score = gemGreen + score
         $("#score").text(score)
         updateScore(score)
-        checkWins()
 
     })
     $("#purple").on("click", function () {
         score = gemPurple + score
         $("#score").text(score)
         updateScore(score)
-        checkWins()
+        
 
     })
     $("#yellow").on("click", function () {
         score = gemYellow + score
         $("#score").text(score)
         updateScore(score)
-        checkWins()
+        
 
     })
 
     function updateScore(x) {
         $("#score").text(x)
-
+        checkWins()
     }
     function checkWins(tally) {
         if (score === computerNumber) {
