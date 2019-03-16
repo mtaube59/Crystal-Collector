@@ -1,0 +1,64 @@
+body {
+    background-image: url("../images/diamond_upholstery.png");
+}
+#header {
+    background-color: gray;
+    text-align: center;
+    font-size: 75px;
+    color: white;
+}
+h2 {
+    text-align: center;
+}
+#green {
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+}
+#blue {
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+}
+#purple{
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+}
+#yellow {
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+}
+#tally {
+    background-color: lightblue;
+}
+#random {
+    font-size: 40px;
+    text-align: center;
+    background-color: lightcoral;
+}
+#statement {
+    text-align: center;
+    font-size: 30px;
+    
+}
+#score {
+    text-align: center;
+    font-size: 40px;
+    background-color: lightcoral;
+}
+.gem-container {
+    text-align: center;
+}
+#int {
+    text-align: center;
+}

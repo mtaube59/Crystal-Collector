@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="./assets/css/reset.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+    <script type="text/javascript" src="./assets/javascript/game.js"></script>
+    <title>Document</title>
+</head>
+<body>
+        <div  class="container">
+            <div class="row">
+                <div class="col-md-3"></div>
+                <div class="col-md-6" id="header">
+                    <h1>Crystal Collector!</h1>
+                </div>
+                <div class="col-md-3"></div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h2 id="int">Instructions:</h2>
+                </div>
+                <div class="row">
+                    <div class="col-md-3"></div>
+                    <div class="col-md-6">
+                        <p>You will be given a random number selected by the computer.</p>
+                        <p>Each Crystal below is given a value. When you click on one it will add to your Total Score towards matching your number to the Computer's number.</p>
+                        <p>You win the game by matching the Computer's score and lose the game if you go over the score.</p>
+                        <p>You will not know the value of each crystal until you click on them. The value of each will change at the beginning of each game along with the Computer's choice.</p>
+                    </div>
+                    <div class="col-md-3"></div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-3"></div>
+            <div class="col-md-6">
+                <p id="random">120</p>
+            </div>
+            <div class="col-md-1" id="tally">
+                <p id="wins">Wins:</p>
+                <br>
+                <p id="losses">Losses:</p>
+            </div>
+            <div class="col-md-2"></div>
+        </div>
+        <div class="gem-container">
+            <img  id = "green" class="gems" src="./assets/images/green-gem.png">
+            <img  id = "blue" class="gems" src="./assets/images/blue-gem.png">
+            <img  id = "purple" class="gems" src="./assets/images/purple-gem.png">
+            <img  id = "yellow" class="gems" src="./assets/images/yellow-gem.png">
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3"></div>
+                <div class="col-md-6">
+                    <p id="statement">Your Score Is:</p>
+                </div>
+                <div class="col-md-3"></div>
+            </div>
+        </div>
+        <div class="container">
+                <div class="row">
+                    <div class="col-md-3"></div>
+                    <div class="col-md-6">
+                        <p id="score">Score</p>
+                    </div>
+                    <div class="col-md-3"></div>
+                </div>
+            </div>
+        
+    
+</body>
+</html>
