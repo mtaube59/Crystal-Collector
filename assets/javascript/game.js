@@ -30,7 +30,6 @@ $(document).ready(function () {
     $(".gems").on("click", function () {
         var gem = $(this).attr("id")
     //Grab value of blue and add to the variable score, update score on page
-        var currentValue;
         if (gem === "blue"){
             score = score + gemBlue
         }
@@ -47,6 +46,12 @@ $(document).ready(function () {
         updateScore(score)
 
     })
+     // $("#blue").on("click", function () {
+    //     score = gemBlue + score
+    //     $("#score").text(score)
+    //     updateScore(score)
+
+    // })
     // $("#green").on("click", function () {
     //     score = gemGreen + score
     //     $("#score").text(score)
