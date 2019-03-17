@@ -42,7 +42,7 @@ $(document).ready(function () {
         else if (gem === "purple"){
             score = score + gemPurple
         }
-        $("#score").text(score)
+        // $("#score").text(score)
         updateScore(score)
 
     })
