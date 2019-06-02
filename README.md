@@ -6,3 +6,5 @@ You will be given a random number selected by the computer. Each crystal below i
                                 lose the game if you go over the score. You will not know the value of each crystal
                                 until you click on it. The value of each will change at the beginning of each game along
                                 with the Computer's choice.
+### Link:
+https://mtaube59.github.io/Crystal-Collector/
